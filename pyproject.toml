@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reaction-ai-crew"
+version = "0.1.0"
+description = "Crew of ai agents to build reaction ai that assists in learning subjects"
+authors = ["itsmadhusudhan"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12.1,<=3.13"
+crewai = { extras = ["tools"], version = "^0.28.1" }
+python-dotenv = "1.0.0"
+crewai-tools = "^0.1.5"
+pydantic = "^2.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

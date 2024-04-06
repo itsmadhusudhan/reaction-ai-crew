@@ -1,0 +1,366 @@
+[
+    {
+        "question": "Which type of solution is formed when a solid dissolves completely in a liquid without leaving any residue?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "explanation": "A saturated solution is one in which the solvent contains the maximum amount of a solute that can be dissolved at a given temperature and pressure. In this case, no more solute can dissolve to form a clear solution.",
+        "topic": "Types of solutions"
+    },
+    {
+        "question": "Which expression represents the concentration of a solid in a solution?",
+        "options": [
+            "Molarity (M)",
+            "Molarity (mol/L)",
+            "Mass percentage (% m/m)",
+            "Mole fraction (x)"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "The mass percentage of a solute in a solution is not the same as its concentration. Concentration is usually expressed in molarity (moles per liter).",
+        "topic": "Expression of concentration"
+    },
+    {
+        "question": "Which of the following solutions is unsaturated?",
+        "options": [
+            "Sugar solution at room temperature",
+            "Salt water at room temperature",
+            "Ice at 0°C",
+            "Gas at standard temperature and pressure"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "An unsaturated solution is one in which the solute is not completely dissolved. A sugar solution at room temperature is an example of an unsaturated solution.",
+        "topic": "Types of solutions"
+    },
+    {
+        "question": "What is the concentration of a 0.5 M hydrochloric acid solution in moles per liter?",
+        "options": [
+            "0.25 mol/L",
+            "1.0 mol/L",
+            "0.5 mol/L",
+            "2.0 mol/L"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "easy",
+        "explanation": "The concentration of a 0.5 M hydrochloric acid solution is 0.5 moles per liter.",
+        "topic": "Expression of concentration"
+    },
+    {
+        "question": "Which of the following solutions is basic?",
+        "options": [
+            "HCl solution",
+            "NaOH solution",
+            "H2SO4 solution",
+            "H2CO3 solution"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "A basic solution is one that contains hydroxide ions (OH-). A NaOH solution is an example of a basic solution.",
+        "topic": "Types of solutions"
+    },
+    {
+        "question": "What is the mass percentage of copper sulfate in a solution that is 0.15 M?",
+        "options": [
+            "1.5%",
+            "3.0%",
+            "7.5%",
+            "15%"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "medium",
+        "explanation": "The mass percentage of a solute in a solution is not the same as its concentration. To find the mass percentage, you need to know the molar mass of the solute and the volume or mass of the solution.",
+        "topic": "Expression of concentration"
+    },
+    {
+        "question": "Which of the following solutions is saturated?",
+        "options": [
+            "Sugar solution at room temperature",
+            "Salt water at room temperature",
+            "Ice at 0°C",
+            "Gas at standard temperature and pressure"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "A saturated solution is one in which the solute is completely dissolved but no more can dissolve at that temperature. A sugar solution at room temperature is not a saturated solution because more sugar can still dissolve.",
+        "topic": "Types of solutions"
+    },
+    {
+        "question": "What is the concentration of a 0.25 M hydrochloric acid solution in moles per liter?",
+        "options": [
+            "0.125 mol/L",
+            "0.25 mol/L",
+            "..."
+        ],
+        "correctAnswer": 0,
+        "difficulty": "easy",
+        "explanation": "The concentration of a 0.25 M hydrochloric acid solution is already given as 0.25 moles per liter.",
+        "topic": "Expression of concentration"
+    },
+    {
+        "question": "Which of the following solutions is acidic?",
+        "options": [
+            "HCl solution",
+            "NaOH solution",
+            "H2SO4 solution",
+            "H2CO3 solution"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "An acidic solution is one that contains hydrogen ions (H+). A HCl solution is an example of an acidic solution.",
+        "topic": "Types of solutions"
+    },
+    {
+        "question": "What is the concentration of a 0.15 M copper sulfate solution in grams per liter?",
+        "options": [
+            "0.03 g/L",
+            "0.15 g/L",
+            "0.3 g/L",
+            "0.45 g/L"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "To find the concentration of a solution in grams per liter, you need to know the molar mass of the solute and the molarity of the solution.",
+        "topic": "Expression of concentration"
+    },
+    {
+        "question": "Which type of solution is formed when a solid dissolves completely in a liquid without leaving any residue?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "explanation": "A saturated solution is one in which the solvent contains the maximum amount of a solute at a given temperature and pressure. In this context, no solid remains when a compound dissolves completely in a liquid, so none is left as residue."
+    },
+    {
+        "question": "Which expression represents the molarity (M) of a solution prepared by dissolving 50.0g of sodium chloride (NaCl) in water to make one liter of solution?",
+        "options": [
+            "M = m/V",
+            "M = V/m",
+            "M = n/V",
+            "M = m/n"
+        ],
+        "correctAnswer": 0,
+        "difficulty": "medium",
+        "explanation": "The expression for molarity (M) is M = m/V. In this question, we have mass (m) and volume (V), so the correct option is A."
+    },
+    {
+        "question": "What type of solution is formed when a solid continues to dissolve in a liquid until it reaches complete saturation?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "A saturated solution is one where a solid dissolves completely in a liquid until it reaches the maximum amount that can dissolve at a given temperature and pressure. This results in no more solid dissolving."
+    },
+    {
+        "question": "What concentration unit is represented by the abbreviation 'N' in chemistry?",
+        "options": [
+            "Molarity (M)",
+            "Normality (N)",
+            "Mole fraction (x)",
+            "Mass percentage (%)"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "hard",
+        "explanation": "The concentration unit represented by the abbreviation 'N' in chemistry is normality (N), which is equivalent to one equivalent weight of solute per liter of solution."
+    },
+    {
+        "question": "A 0.1 M solution has a volume of: ",
+        "options": [
+            "0.1 L",
+            "1 L",
+            "10 L",
+            "100 L"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "easy",
+        "explanation": "A solution with a molarity (M) of 0.1 has a volume (V) of one liter (L)."
+    },
+    {
+        "question": "Which expression represents the molality (m) of a solution in terms of mass of solute and mass of solvent?",
+        "options": [
+            "m = m/V",
+            "m = V/m",
+            "m = n/V",
+            "m = m/n"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "medium",
+        "explanation": "The expression for molality (m) is m = m/n, where 'm' is the mass of solute and 'n' is the mass of solvent."
+    },
+    {
+        "question": "A saturated solution: ",
+        "options": [
+            "has a higher concentration than an unsaturated solution",
+            "has a lower concentration than an unsaturated solution",
+            "has the same concentration as an unsaturated solution",
+            "contains more solvent than an unsaturated solution"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "A saturated solution has a higher concentration of solute than an unsaturated solution."
+    },
+    {
+        "question": "What is the expression for the molarity (M) of a solution in terms of its mass of solute and the volume of the solution?",
+        "options": [
+            "M = m/V",
+            "M = V/m"
+        ],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "explanation": "The expression for molarity (M) is M = m/V."
+    },
+    {
+        "question": "A basic solution: ",
+        "options": [
+            "has a pH greater than 7",
+            "has a pH less than 7",
+            "is saturated with a solid solute",
+            "contains only acids"
+        ],
+        "correctAnswer": 0,
+        "difficulty": "easy",
+        "explanation": "A basic solution is one that has a pH greater than 7."
+    },
+    {
+        "question": "Which expression represents the molarity (M) of a solution in terms of its number of moles of solute and the volume of the solution?",
+        "options": [
+            "M = n/V",
+            "M = V/n",
+            "M = m/V"
+        ],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "explanation": "The expression for molarity (M) is M = n/V."
+    },
+    {
+        "question": "Which type of solution is formed when a solid dissolves completely in a liquid without leaving any residue?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "explanation": "A saturated solution is one in which the solvent contains the maximum amount of a solute that can be dissolved at a given temperature and pressure. In this case, no more solute can dissolve to form a solution, leaving a residue."
+    },
+    {
+        "question": "What type of solution is formed when a solid dissolves in water completely and leaves no residue?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 4,
+        "difficulty": "medium",
+        "explanation": "An unsaturated solution is one in which the solvent can dissolve more solute. In this case, since no residue is left behind when a solid dissolves completely in water, an unsaturated solution is formed."
+    },
+    {
+        "question": "Which of the following expressions represents the concentration of a solid in a solution?",
+        "options": [
+            "Molarity (M)",
+            "Molarity (mol/L)",
+            "Mass percentage (%)",
+            "Mole fraction (x)"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "medium",
+        "explanation": "The mass percentage of a solute in a solution is the mass of the solute divided by the total mass of the solution, expressed as a percentage."
+    },
+    {
+        "question": "Which expression represents the concentration of 50.0 g of sodium chloride dissolved in 250 mL of water?",
+        "options": [
+            "0.1 M",
+            "0.2 M",
+            "0.3 M",
+            "0.4 M"
+        ],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "explanation": "To find the molarity of a solution, divide the mass of the solute in grams by its molecular weight in grams per mole and then divide that result by the volume of the solution in liters."
+    },
+    {
+        "question": "Which of the following is an example of a saturated solution?",
+        "options": [
+            "Sodium chloride dissolved in water at 25°C",
+            "Sugar dissolved in hot water",
+            "Ice dissolving in water at 0°C",
+            "Ammonia gas dissolved in water"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "explanation": "At 0°C, ice is at its melting point and will not dissolve any further once it has reached saturation. Any additional ice added to the water will not dissolve."
+    },
+    {
+        "question": "Which of the following expressions represents the concentration of a solution in terms of mass per liter?",
+        "options": [
+            "Molarity (M)",
+            "Mass percentage (%)",
+            "Mole fraction (x)",
+            "Parts per million (ppm)"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "The mass percentage of a solute in a solution is the mass of the solute divided by the total mass of the solution, expressed as a percentage."
+    },
+    {
+        "question": "Which of the following solutions would be considered unsaturated?",
+        "options": [
+            "Sodium chloride dissolved in water at 25°C",
+            "Sugar dissolved in hot water"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "A solution is considered unsaturated if it can dissolve more solute. In this case, sugar dissolves more easily in hot water than in cold water, so a sugar solution made with hot water would be considered unsaturated."
+    },
+    {
+        "question": "What type of solution is formed when a solid dissolves completely in a liquid and leaves no residue?",
+        "options": [
+            "Acidic solution",
+            "Basic solution",
+            "Saturated solution",
+            "Unsaturated solution"
+        ],
+        "correctAnswer": 4,
+        "difficulty": "medium",
+        "explanation": "An unsaturated solution is one in which the solvent can dissolve more solute. In this case, since no residue is left behind when a solid dissolves completely in water, an unsaturated solution is formed."
+    },
+    {
+        "question": "Which of the following expressions represents the concentration of a 0.1 M sodium hydroxide solution?",
+        "options": [
+            "0.1 g/L",
+            "0.1 mol/L",
+            "1.0 g/L",
+            "1.0 mol/L"
+        ],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "explanation": "Molarity is defined as the number of moles of solute per liter of solution."
+    },
+    {
+        "question": "Which of the following expressions represents the concentration of a 1.5 M hydrochloric acid solution?",
+        "options": [
+            "0.15 g/L",
+            "1.5 g/L",
+            "1.5 mol/L",
+            "15 g/L"
+        ],
+        "correctAnswer": 3,
+        "difficulty": "medium",
+        "explanation": "Molarity is defined as the number of moles of solute per liter of solution."
+    }
+]
