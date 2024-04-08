@@ -58,3 +58,10 @@ class ChemistryAutomationTasks():
             expected_output=dedent(f"""Generate 10 multiple choice questions that are a valid JSON format.""")
         )
 
+    def topic_selection(self,agent):
+        return Task(
+            description=dedent(f"""Select the topics that should be covered in the Chemistry multiple choice questions"""),
+            verbose=True,
+            agent=agent,
+            expected_output=dedent(f"""Provide the Chemistry Questions Generator with the necessary information to generate the questions""")
+        )

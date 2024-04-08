@@ -10,17 +10,33 @@ class ChemistryAutomationAgents():
     def subject_manager(self):
         return Agent(
             role="Chemistry Subject Manager",
-            goal="""Oversee the Chemistry mutiple choice questions generation process including
-            generating new questions""",
-            backstory="""As a methodical and detail oriented manager, you are responsible for overseeing the Chemistry multiple choice 
+            goal="""Oversee the Chemistry mutiple choice questions generation process including topics selection with 
+            Chemistry Topic Selector and generating new questions with Chemistry Questions Generator""",
+            backstory="""As a methodical and detail oriented manager, you are responsible for overseeing the topic selection and generation Chemistry multiple choice 
             questions. When creating the questions:
-            1. Pick the topics randomly if necessary
-            2. Generate new questions
-            3. Ensure that the questions are accurate and error-free
+            1. Pick the topics from Chemistry Topic Selector and pass them to the Chemistry Questions Generator
+            2. Ask Chemistry Questions Generator to generate questions based on the topics selected
+
+            After generating the questions you should output the questions and stop the process
             """,
             verbose=True,
             allow_delegation=True,
-            llm=self.llm
+            llm=self.llm,
+            max_iter=2
+        )
+
+    def topic_selector(self):
+        return Agent(
+            role="Chemistry Topic Selector",
+            goal="""Select the topics that should be covered in the Chemistry multiple choice questions""",
+            backstory="""As a chemistry professor with 20 years experience teaching chemistry, you are responsible for selecting the 
+            topics that should be covered in the Chemistry multiple choice questions:
+            1. Pick 3-10 topics in chemistry randomly and confirm them to the Chemistry Questions Generator
+            """,
+            verbose=True,
+            allow_delegation=True,
+            llm=self.llm,
+            max_iter=2
         )
 
     def syllabus_research_manager(self):
@@ -37,7 +53,8 @@ class ChemistryAutomationAgents():
             verbose=True,
             allow_delegation=True,
             tools=[syllabus_tool],
-            llm=self.llm
+            llm=self.llm,
+            max_iter=2
         )
 
     def previous_years_questions_collector(self):
@@ -60,14 +77,15 @@ class ChemistryAutomationAgents():
     def questions_generator(self):
         return Agent(
             role="Chemistry Questions Generator",
-            goal="""Generate new multiple choice questions based on the Chemistry syllabus. The agent should be able to generate questions""",
+            goal="""Generate new multiple choice questions based on the Chemistry topics from Chemistry Topic Selector.""",
             backstory="""As a creative and analytical questions generator, you are responsible for generating new multiple choice
             questions:
-            1. Generate new questions
+            1. Generate new questions based on the topics provided by the Chemistry Topic Selector
             2. Ensure that the questions are accurate and error-free
             """,
             verbose=True,
             allow_delegation=True,
-            llm=self.llm
+            llm=self.llm,
+            max_iter=2
         )
 
