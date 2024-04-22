@@ -4,7 +4,7 @@ from question_agents import chemistry_professor
 from dotenv import load_dotenv
 
 from agents import ChemistryAutomationAgents
-from tasks import ChemistryAutomationTasks
+from trial.tasks import ChemistryAutomationTasks
 import os
 
 load_dotenv()
